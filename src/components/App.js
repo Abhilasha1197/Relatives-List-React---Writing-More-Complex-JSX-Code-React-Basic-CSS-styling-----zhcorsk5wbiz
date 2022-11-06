@@ -2,20 +2,17 @@ import React, {Component, useState} from "react";
 import '../styles/App.css';
 
 class App extends Component {
-    render() {
-
+     render() {
         return(
             <div id="main">
-               {/* Do not remove the main div */}
-               <ol key={relativeList} >
-                <li key={relativeListItem1}>kdsu</li>
-                <li key={relativeListItem2}>vsmjndf</li>
-                <li key={relativeListItem3}>vsj</li>
+
+               <ol key={"relativeList"}>
+                <li key={"relativeListItem1"}>A</li>
+                <li key={"relativeListItem2"}>B</li>
+                <li key={"relativeListItem3"}>C</li>
                </ol>
             </div>
         )
     }
 }
-
-
 export default App;
