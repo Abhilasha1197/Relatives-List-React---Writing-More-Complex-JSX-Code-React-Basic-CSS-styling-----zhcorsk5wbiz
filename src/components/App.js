@@ -8,9 +8,9 @@ class App extends Component {
             <div id="main">
                {/* Do not remove the main div */}
                <ol key={relativeList} >
-                <li key={relativeListItem1}>A</li>
-                <li key={relativeListItem2}>B</li>
-                <li key={relativeListItem3}>C</li>
+                <li key={relativeListItem1}>kdsu</li>
+                <li key={relativeListItem2}>vsmjndf</li>
+                <li key={relativeListItem3}>vsj</li>
                </ol>
             </div>
         )
